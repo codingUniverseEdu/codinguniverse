@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Course() {
   return (
-    
+    <>
+    <h1 className='text-center text-6xl text-blue-600'>All Courses</h1>
 <div id="default-carousel" className="relative w-full" data-carousel="slide">
 
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -44,6 +45,6 @@ export default function Course() {
         </span>
     </button>
 </div>
-
+</>
   )
 }
